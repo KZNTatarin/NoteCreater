@@ -1,0 +1,17 @@
+.my-btn {
+border-radius: 3px;
+transition: 0.3s;
+cursor: pointer;
+background: none;
+/* padding: 5px; */
+margin: 0 5px;
+padding: 5px;
+border: solid 3px rgba(128, 128, 240, 0.651);
+border-radius: 5px;
+font-size: 15px;
+}
+
+.my-btn:hover {
+background-color: rgba(128, 128, 240, 0.651);
+color: white;
+}

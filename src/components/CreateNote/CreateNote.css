@@ -1,0 +1,22 @@
+.create-textarea {
+  resize: none;
+  height: 200px;
+  width: 300px;
+  border: solid 3px rgba(128, 128, 240, 0.651);
+  border-radius: 5px;
+  padding: 5px 2.5px;
+  font-size: 15px;
+}
+
+.create__section {
+  display: flex;
+  justify-content: center;
+}
+
+.create-btn {
+  align-self: center;
+ padding: 5px;
+ margin-left: 10px;
+}
+
+

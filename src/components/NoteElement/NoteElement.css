@@ -1,0 +1,43 @@
+.note__card {
+    position: sticky;
+    align-self: flex-start;
+    border: solid 1px gray;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    max-width: 500px;
+    border-radius: 5px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.note__content {
+    margin-right: 5px;
+}
+
+.card__panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.panel-btn {
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+    background: none;
+    align-self: stretch;
+    padding: 5px;
+    margin: 2.5px 5px;
+}
+
+.delete-btn {
+    font-size: 15px;
+    border: solid 1px red;
+    color: red;   
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+}
+
