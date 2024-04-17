@@ -8,9 +8,7 @@ interface PopupProps {
 }
 
 const Popup: FC<PopupProps> = ({active, setActive, children}) => {
-    if (active) {
-        console.log(active);
-        
+    if (active) {        
         document.body.style.overflow = 'hidden'
     } else {
         document.body.style.overflow = 'auto'

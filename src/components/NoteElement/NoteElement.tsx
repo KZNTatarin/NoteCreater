@@ -45,7 +45,7 @@ const NoteElement: FC<NoteElementProps> = ({ note, loadNewNotes }) => {
     <div className="note__card">
       <div className="note__content">
         <p>
-          № {note.id}. {note.content}
+          {note.content}
         </p>
       </div>
 
